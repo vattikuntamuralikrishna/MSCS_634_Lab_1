@@ -20,6 +20,8 @@ Dealing with Missing Data: I couldn't just use a one-size-fits-all approach for 
 Data Type Cleanup: The Postal Code column was originally loading as a float (with decimals), which looked messy. Once the missing values were handled, I converted it over to a clean integer format.
 Environment Headaches: One of the most frustrating roadblocks wasn't the data itself, but version compatibility issues between NumPy, Pandas, and SciPy. I had to spend some time adjusting my environment packages to get everything running smoothly.
 Handling Outliers: The IQR (Interquartile Range) method flagged some massive outliers in the Sales column. I ended up filtering these out to prevent them from skewing the overall analysis, which gave me a much cleaner baseline to work with.
+
+
 Tech Stack Used
 Python
 Pandas
